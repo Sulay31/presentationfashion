@@ -1,5 +1,5 @@
 body{
-		font-family:"Helvetica Neue",Arial, sans-serif;		
+		font-family:"bungee inline",Arial, sans-serif;		
 		font-size:1rem; 
 		word-wrap: break-word; 
 		overflow-wrap: break-word;}
@@ -27,12 +27,14 @@ a { text-decoration: none;
 
  .clear {
  	overflow: auto;
+ 	
  }
 
 .container p {
 	color: #000;
 	font-size: 14px;
 }
+
 
 .container h2 {	
 	color: #000;
@@ -61,6 +63,7 @@ a { text-decoration: none;
 
 #nav .logo {
 	float: left;
+	width:30px;
 }
 
 #nav .nav-list {
@@ -87,6 +90,7 @@ ul.navbar{
 .banner {
 	background-color: #FF530D;
 	padding:20px 40px;
+
 }
 
 .banner h1 {
@@ -112,22 +116,23 @@ ul.navbar{
 .men-content .image-container{
 	float: left;
 	width: 30%;
-	margin-right: 5%;
+	
 
 }
 
 
 .men-content .image-container{
 	float: left;
-	width: 30%;
+	width: 70%;
 	
 }
 .men-content .image-container img {
-	width:	100%;
+	float: right;
+	width:	30%;
 }
 .men-content .post-container{
 	float: left;
-	width: 40%
+	width: 30%
 }
 table.table-content{
 	display: table;
