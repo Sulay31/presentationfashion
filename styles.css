@@ -25,8 +25,22 @@ a { text-decoration: none;
  	font-style: normal;
  }
 
+ .flex-container{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start ;
+}
+
+.flex-container div{
+  width: 33%;
+}
+
  .clear {
- 	overflow: auto;
+ 	overflow: hidden;
+
  	
  }
 
@@ -44,8 +58,7 @@ a { text-decoration: none;
 
 .row-box{
 	position: relative;
-	display: block;
-	width: 100%;
+	width: 50%;
 	clear: left;
 }
 .col{
@@ -62,9 +75,11 @@ a { text-decoration: none;
 }
 
 #nav .logo {
-	float: left;
+	float: center;
 	width:30px;
+	margin: 10px,0,10px,0
 }
+.logo
 
 #nav .nav-list {
  	float: right;
@@ -78,7 +93,7 @@ a { text-decoration: none;
 
 ul.navbar{
 	display: block;
-	text-align: center;
+	text-align: right;
 	margin: 15% 0 0 0;
 }
 .navbar li {
@@ -103,7 +118,7 @@ ul.navbar{
 .banner p{
 	font-size:22px;
 	color: #000;
-	font: font-weight:200;
+	font-weight: 200;
 }
 
 .men.content {
@@ -126,11 +141,13 @@ ul.navbar{
 	width: 70%;
 	
 }
-.men-content .image-container img {
+.woman-content .image-container img {
 	float: right;
 	width:	30%;
+	display: inline;
+	padding: 0 0
 }
-.men-content .post-container{
+.woman-content .post-container{
 	float: left;
 	width: 30%
 }

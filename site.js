@@ -107,7 +107,7 @@ var myArray = [];
 console.log ("myArray:", myArray);
 myArray = [0,1, 2, 'string1', 'string2', 'string3', true, false];
 console.log("myArray,myArray[2]: ", myArray, myArray[2]);
-console.log("myArray: ", myArray[5])
+console.log("myArray: ", myArray[2])
 
 var daysoftheweek = [
 "Sunday",
@@ -274,4 +274,146 @@ if(transportation === birthdayGift) {
 	iGot = true;
 }
 if (iGot){console.log("Cry WAAAA!") }
-if (!iGot){console.log("scream WEEEE!") 
+if (!iGot){console.log("scream WEEEE!") }
+
+var transport = "bicycle";
+transport === "bicycle"
+	? console.log ("Your transport is bicycle")
+	: console.log ("Your transport is subway")
+
+	var transportType = transport ==="bicycle" ? "type bicycle" : "type subway";
+	console.log("transportType", transportType);
+	//TYPE CHECKIMG
+	var thing = 12;
+	console.log('typeof', typeof thing);
+	var thing = "twelve";
+	console.log('typeof', typeof thing);
+	var thing = false;
+	console.log('typeof', typeof thing);
+	var thing = {};
+	console.log('typeof', typeof thing);
+	var thing = [];
+	console.log('typeof', typeof thing);
+
+	// for loop sesquential
+	var i = 0;
+	console.log("1, daysoftheweek, daysoftheweek.length", i, daysoftheweek, daysoftheweek.length );
+	// index, when to stop increments
+	for (i; i < daysoftheweek.length; i++) {
+		daysoftheweek[i];
+		console.log('daysoftheweek[i]', daysoftheweek[i]);
+
+	}
+
+	var nycMarkets = [
+	{
+		"accepts_ebt": true,
+		"additionalinfo": "Open year-round",
+		"address": "Union bet Driggs & N 12th St",
+		"borough": "Brooklyn",
+		"facilityname": "McCarren Park Greenmarket",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": true,
+		"saturday": "8am-3pm ",
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"website": "https://www.grownyc.org/greenmarket",
+		"zipcode": "11222"
+	}, {
+		"accepts_ebt": true,
+		"additionalinfo": "Market open dates: 7/14/2017 to 11/22/2017",
+		"address": "E 163rd St & Hunts Point Ave",
+		"borough": "Bronx",
+		"enddate": "2017-11-22T00:00:00.000",
+		"facilityname": "Harvest Home Hunts Point Market",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": false,
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"startdate": "2017-07-14T00:00:00.000",
+		"website": "https://www.harvesthomefm.org/",
+		"wednesday": "8am-4pm",
+		"zipcode": "10459"
+	}, {
+		"accepts_ebt": true,
+		"additionalinfo": "Market open dates: 6/28/2017 to 11/15/2017",
+		"address": "Clarkson & Troy Aves",
+		"borough": "Brooklyn",
+		"enddate": "2017-11-15T00:00:00.000",
+		"facilityname": "Urban Oasis Farmers Market",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": false,
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"startdate": "2017-06-28T00:00:00.000",
+		"wednesday": "2pm-5:30pm",
+		"zipcode": "11203"
+	}, {
+		"accepts_ebt": false,
+		"additionalinfo": "Market open dates: 7/6/2017 to 11/16/2017",
+		"address": "114-02 Guy R Brewer Blvd",
+		"borough": "Queens",
+		"enddate": "2017-11-16T00:00:00.000",
+		"facilityname": "Queens Hospital Center Farmers Market II",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": false,
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"startdate": "2017-07-06T00:00:00.000",
+		"thursday": "8am-4pm",
+		"zipcode": "11434"
+	}, {
+		"accepts_ebt": true,
+		"additionalinfo": "Market open dates: 7/8/2017 to 10/28/2017",
+		"address": "90 W 164th St bet Ogden & Nelson Aves",
+		"borough": "Bronx",
+		"enddate": "2017-10-28T00:00:00.000",
+		"facilityname": "Taqwa Community Farmers Market",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": false,
+		"saturday": "10am-4pm",
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"startdate": "2017-07-08T00:00:00.000",
+		"zipcode": "10452"
+	}, {
+		"accepts_ebt": true,
+		"additionalinfo": "Open year-round",
+		"address": "506 Lenox Ave bet 135th & 137th Sts",
+		"borough": "Manhattan",
+		"facilityname": "Harvest Home Harlem Hospital Farmers Market",
+		"friday": "8am-7pm",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": true,
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"website": "https://www.harvesthomefm.org/",
+		"zipcode": "10037"
+	}, {
+		"accepts_ebt": true,
+		"additionalinfo": "Market open dates: 6/24/2017 to 10/28/2017",
+		"address": "Livonia Ave bet Powell & Junius Sts",
+		"borough": "Brooklyn",
+		"enddate": "2017-10-28T00:00:00.000",
+		"facilityname": "Isabahlia Farmers Market",
+		"nyc_dept_of_health_cooking": false,
+		"open_year_round": false,
+		"saturday": "8am-3pm ",
+		"service_category": "Farmers Markets and Food Boxes ",
+		"service_type": "Farmers Markets",
+		"startdate": "2017-06-24T00:00:00.000",
+		"website": "https://www.isabahlialoefinc.org/",
+		"zipcode": "11212"
+	}
+];
+
+var i = 0;
+console.log("i, nycMarkets, nycMarkets.length", i, nycMarkets, nycMarkets.length)
+for (i; i <nycMarkets.length; i++) {
+		nycMarkets[i];
+		console.log('nycMarkets[i]', nycMarkets[i]);
+		var cooking =(nycMarkets[i].nyc_dept_of_health_cooking === true) ? "YES" : "No";
+		console.log ('cooking', cooking);
+		var openYearRound =(nycMarkets[i].open_year_round=== true)? "YES" : "No";
+		console.log('openYearRound', openYearRound);
+}
